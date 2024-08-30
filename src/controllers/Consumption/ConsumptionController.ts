@@ -7,7 +7,6 @@ import message from "../../utils/message";
 import { Database } from "../../../db/database";
 import { MeasureRead } from "../../../db/models/MeasureRead";
 import { GeminiClient } from "../../clients/geminiClient";
-import { createTempUrlFromBase64 } from "../../utils/blob";
 import {
   MeasureTypeSchema,
   UploadValueSchema,
