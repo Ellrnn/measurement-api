@@ -14,13 +14,18 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
     "@types/pg": "^8.11.7",
     "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "@valibot/i18n": "^0.17.0",
     "express": "^4.19.2",
-    "pg": "^8.12.0"
+    "pg": "^8.12.0",
+    "valibot": "^0.39.0"
   }
 }
